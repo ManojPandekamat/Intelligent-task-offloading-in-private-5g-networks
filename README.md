@@ -7,8 +7,7 @@ Follow This repository for Multinode 5G setup using Open5gs, srsRAN and USRP B21
 
 Follow The [Steps](./Steps/) folder for setup steps 
 
-Total Work Flow
-
+**Total Work Flow**
 1. User connects Private 5G network
 2. User request to `schedular 10.45.0.1:5001/predict` endpoint
 3. Schedular forword request to one of the selected node
@@ -18,5 +17,5 @@ Total Work Flow
 4. The Edge Node or cloud Node process the image and return the results to the user and send the processed data to the storage node  in openstack for future use.
 
 
-
+**Note**
 You can build all the Docker images mentioned in this project from scrach using [Build](./Build/) or we have already mentioned the images built during setup in the configuration files
