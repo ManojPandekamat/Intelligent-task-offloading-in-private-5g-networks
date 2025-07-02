@@ -18,3 +18,5 @@ Total Work Flow
 4. The Edge Node or cloud Node process the image and return the results to the user and send the processed data to the storage node  in openstack for future use.
 
 
+
+You can build all the Docker images mentioned in this project from scrach using [Build](./Build/) or we have already mentioned the images built during setup in the configuration files
